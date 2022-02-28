@@ -24,6 +24,9 @@
 }
 
 .site-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
     -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, .1);
     box-shadow: 0px 4px 20px rgba(0, 0, 0, .1)
 }
@@ -101,6 +104,7 @@
     height: 40px;
     right: 100px;
     top: 14px;
+    border: none;
     cursor: pointer;
     background-color: #00bafc;
     color: #fff;
@@ -313,6 +317,60 @@
     border-radius: 5px
 }
 
+.servicese-item-2 {
+    width: 320px;
+    height: 260px;
+    font-family: Open Sans;
+    text-align: center;
+    margin-top: 21px;
+    margin-left: 188px;
+    background: #fff;
+    -webkit-box-shadow: 0px 8px 8px rgba(0, 0, 0, .1);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, .1);
+    border-radius: 5px
+}
+
+.servicese-item-2:hover {
+    background: #fff;
+    -webkit-box-shadow: 0px 12px 21px rgba(0, 0, 0, .1);
+    box-shadow: 0px 12px 21px rgba(0, 0, 0, .1);
+    border-radius: 5px
+}
+
+.servicese-item-2:active {
+    background: #fff;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);
+    border-radius: 5px
+}
+
+.servicese-item-3 {
+    width: 320px;
+    height: 260px;
+    font-family: Open Sans;
+    text-align: center;
+    margin-top: 21px;
+    margin-right: 216px;
+    background: #fff;
+    -webkit-box-shadow: 0px 8px 8px rgba(0, 0, 0, .1);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, .1);
+    border-radius: 5px
+}
+
+.servicese-item-3:hover {
+    background: #fff;
+    -webkit-box-shadow: 0px 12px 21px rgba(0, 0, 0, .1);
+    box-shadow: 0px 12px 21px rgba(0, 0, 0, .1);
+    border-radius: 5px
+}
+
+.servicese-item-3:active {
+    background: #fff;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);
+    border-radius: 5px
+}
+
 .services-footer {
     margin-top: 45px;
     margin-bottom: 57px;
@@ -322,6 +380,7 @@
 .services-btn {
     width: 167px;
     height: 40px;
+    border: none;
     background-color: #00bafc;
     color: #fff;
     cursor: pointer;
@@ -374,6 +433,7 @@
     right: 100px;
     top: 14px;
     margin-left: 540px;
+    border: none;
     cursor: pointer;
     background-color: #00bafc;
     color: #fff;
@@ -388,8 +448,6 @@
 .order-form-heading {
     font-family: 'Open Sans';
     font-size: 24px;
-    margin: 0;
-    padding-top: 24px;
     text-align: center;
     color: #fff
 }
@@ -445,6 +503,7 @@
     right: 100px;
     margin-top: 20px;
     margin-left: 59px;
+    border: none;
     cursor: pointer;
     background-color: #00bafc;
     color: #fff;
@@ -592,6 +651,7 @@
     width: 167px;
     height: 40px;
     margin-top: 19px;
+    border: none;
     background-color: #00bafc;
     color: #fff;
     cursor: pointer;

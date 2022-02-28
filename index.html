@@ -145,7 +145,7 @@
 
                     </li>
 
-                    <li class="servicese-item">
+                    <li class="servicese-item-2">
 
                         <img src="./images/grafik-design.png" alt="design">
 
@@ -155,7 +155,7 @@
 
                     </li>
 
-                    <li class="servicese-item">
+                    <li class="servicese-item-3">
 
                         <img src="./images/crm.png" alt="crm">
 
@@ -278,12 +278,16 @@
 
                     <div class="input-box">
 
-                        <input class="form-name" type="text" placeholder="Ismingiz" name="ism" autocomplete="off">
+                        <input class="form-name" type="text" placeholder="Ismingiz" name="ism" autocomplete="off" required>
 
                         <input class="phone-number" type="number" placeholder="Telefon raqamingiz" name="phone-number" required>
 
-                        <select class="select-together" name="Xizmat turi" id="select-together">
-                            <option value="Something">Xizmat turi</option>
+                        <select class="select-together" name="Xizmat turi" id="select-together" required>
+                            <option value="Something" hidden>Xizmat turi</option>
+                            <option>Veb sayt</option>
+                            <option>SMM</option>
+                            <option>Telegram bot</option>
+                            <option>CRM tizimlari</option>
                         </select>
 
                         <button class="form-btn">Buyurtma berish</button>
